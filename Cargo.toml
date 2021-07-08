@@ -1,0 +1,24 @@
+[package]
+name = "inkview-sys"
+version = "0.1.0"
+authors = ["andrey <a.simaranov@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7"
+num = "0.3.0"
+num-derive = "0.3.3"
+num-traits = "0.2"
+tinybmp="*"
+bitflags = "*"
+
+[build-dependencies]
+bindgen = "0.55.1"
+lazy_static = "1.4.0"
+bitflags = "*"
+
+[features]
+sdk_v6 = []
+sdk_v4 = []
