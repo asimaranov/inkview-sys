@@ -434,22 +434,3 @@ pub enum MirrorFlag{
 	Y_MIRROR = c_api::YMIRROR
 }
 
-/*bitflags! {
-    struct TextAlignFlag: i32 {
-    const ALIGN_LEFT = c_api::ALIGN_LEFT;
-    const ALIGN_CENTER = c_api::ALIGN_CENTER;
-    const ALIGN_RIGHT = c_api::ALIGN_RIGHT;
-    const ALIGN_FIT = c_api::ALIGN_FIT;
-    const VALIGN_TOP = c_api::VALIGN_TOP;
-    const VALIGN_MIDDLE = c_api::VALIGN_MIDDLE;
-    const VALIGN_BOTTOM = c_api::VALIGN_BOTTOM;
-    }
-}
-
-
-bitflags! {
-    struct MirrorFlag: i32 {
-    const X_MIRROR = c_api::XMIRROR;
-	const Y_MIRROR = c_api::YMIRROR;
-    }
-}*/
