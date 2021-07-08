@@ -3,6 +3,15 @@ name = "inkview-sys"
 version = "0.1.0"
 authors = ["andrey <a.simaranov@gmail.com>"]
 edition = "2018"
+license = "MIT"
+keywords = ["eink", "inkview", "pocketbook"]
+build = "build.rs"
+links = "inkview"
+exclude = [
+    ".idea/*",
+]
+
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -22,3 +31,4 @@ bitflags = "*"
 [features]
 sdk_v6 = []
 sdk_v4 = []
+
