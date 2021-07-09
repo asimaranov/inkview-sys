@@ -86,7 +86,8 @@ fn main() -> std::io::Result<()> {
     // Tell cargo to tell rustc to link the inkview
 	// shared library.
 	if !cfg!(feature="sdk_v6") && !cfg!(feature="sdk_v4"){
-		panic!("No sdk_v4 or sdk_v6 feature provided");
+		//panic!("No sdk_v4 or sdk_v6 feature provided");
+		return Ok(())
 	}
     println!("argo:rustc-link-lib=inkview");
 
