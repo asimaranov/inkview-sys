@@ -31,7 +31,7 @@ pub struct Color(pub i32);
 
 impl Color {
     pub const fn rgb(red: u8, green: u8, blue: u8) -> Self {
-        Self((blue as i32) << 16 + (green as i32) << 8 + red as i32)
+        Self(((blue as i32) << 16) + ((green as i32) << 8) + red as i32)
     }
 
     pub const fn gs(intensity: u8) -> Self {
